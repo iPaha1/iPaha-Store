@@ -62,6 +62,8 @@ const ProductCard: React.FC<ProductCard> = ({
         </div>
       </div>
       {/* Description */}
+      <p className="text-sm text-gray-700">{data.description}</p>
+
       <div>
         <p className="font-semibold text-lg">{data.name}</p>
         <p className="text-sm text-gray-500">{data.category?.name}</p>
